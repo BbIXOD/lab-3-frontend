@@ -1,8 +1,8 @@
-#container {
+.container {
     width: 80%;
-    height: 80vh;
+    height: 50vh;
     background-color: #00fff7;
-    margin: auto;
+    margin: 10px auto;
 }
 
 .center-content {
@@ -11,27 +11,38 @@
     align-items: center;
 }
 
-#header {
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.header {
     background-color: #71F553;
     height: 18.75%;
     width: 100%;
 }
 
-#content {
+.content {
     background-color: #ACE3F5;
     height: 65.625%;
     width: 73.68%;
-    float: right;
 }
 
-#navigation {
+.navigation {
     background-color: #9090FA;
     height: 65.625%;
     width: 26.32%;
-    float: left;
 }
 
-#footer {
+.footer {
     background-color: #F9F2B3;
     height: 15.625%;
     width: 100%;
